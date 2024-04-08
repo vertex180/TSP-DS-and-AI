@@ -1,0 +1,64 @@
+Problem 1: Add two numbers
+Let's start off with a simple one. Write a Python function that adds two numbers.
+For example, my_func(2, 10) should return 12.
+
+Problem 2: Add n numbers
+Now, write a function that takes in an arbitrary number of arguments and returns their sum.
+For instance, my_func(2, 3) would return 5, my_func(5, 1, 4) would return 10, and so on.
+Hint: Google *args in Python and what they can do.
+
+Problem 3: Factorial of a number
+I'm sure you must have heard of factorials. Mathematically, they're defined as follows:
+n! = n x (n-1) x (n-2) x ... x 2 x 1
+So 1! is 1, 2! is 2, 5! is 120, and so on. You need to write a program that takes in a single argument, and prints the factorial of the number.
+For instance, my_func(4) would output 24 and my_func(3) would output 6.
+
+Problem 4: Temperature converter
+Write a function that converts celsius to fahrenheit, and vice versa.
+The formulae are as follows:
+Fahrenheit to Celsius: (F - 32) * 5/9
+Celsius to Fahrenheit: (C * 9/5) + 32
+Your function should take 2 arguments: a temperature and the scale the temperature needs to be converted to.
+For instance, my_func(100, 'F') would assume that 100 is in Celsius and would convert it to 212F (in other words, it would return 212). On the other hand my_func(100, 'C') would assume 100 is in Fahrenheir and would convert it to 37.7C.
+You can assume that the second argument of your function will always be either C or F.
+
+Problem 5: List Manipulation
+Write a function that takes in a list of numbers as input and performs the following operations sequentially:
+Remove all odd numbers
+Double every remaining number
+Sum all the modified numbers
+There is one caveat here though: you're not allowed to use loops! If you feel like you don't know how to proceed, maybe googling List Comprehension in Python might help :)
+As an example, my_func([1, 2, 3, 4, 5]) would remove all odd numbers to create [2, 4], double the numbers to create [4, 8] and then return a final answer of 12.
+
+Problem 6: Patterns I
+Write a function that takes in a number, and prints out a pattern.
+If the number is 1, you should print out:
+*
+If it's 2, you should print out,
+* 
+**
+If it's 5, the result should be
+*
+**
+***
+****
+*****
+And so on.
+
+Problem 7: Patterns II
+Write a function that creates the mirror image of the pattern created in the last problem.
+The pattern when n=1 remains the same.
+For n=2,
+ *
+**
+For n=5,
+    *
+   **
+  ***
+ **** 
+*****
+And so on.
+
+Problem 8: Word Frequency
+Write a function that takes in a string as a function and returns a dictionary of alphabet frequency in the string. Your function should ignore all characters apart from English uppercase and lowercase alphabets.
+For instance, my_func("Hello World! 123") should return {'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}.
